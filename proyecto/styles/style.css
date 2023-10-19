@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.button_bar{
+    border-color: slateblue;
+    border: 2px solid;
+    color: wheat;
+}
+
+.shadow-text{
+    text-shadow: 1px 0 10px black;
+}
+
+.button-cv{
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color:  #a64aea ;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+
+}
+      .button-cv:hover {background-color:  #7b11ca }
+      
+      .button-cv:active {
+        background-color:  #7b11ca ;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+      .img-borde{
+        border-radius: 15px;
+      }
